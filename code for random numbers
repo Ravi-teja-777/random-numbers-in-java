@@ -1,0 +1,27 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Practice{
+    static void rand(){
+        Scanner x = new Scanner(System.in);
+        System.out.print("Enter the range of number : ");
+        int d= x.nextInt();
+        while (true){
+            System.out.print("Enter 1 to continue : ");
+            int a = x.nextInt();
+            if(a==1){
+                int b = (int)(Math.random()*(d+1));
+                System.out.println("Random Number is : "+b);
+            }
+            
+        }
+        
+        }
+        public static void main(String args[]){
+            
+            rand();
+    
+       
+    }
+}
